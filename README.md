@@ -10,21 +10,9 @@ This README would normally document whatever steps are necessary to get your app
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* npm start - due to tailwind you need to save the .html file to rebuild the styles 
 
-### Contribution guidelines ###
+* npm build - doesn't work as it supposed to
 
-* Writing tests
-* Code review
-* Other guidelines
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact# tailwind-blindy-nauka
 # Travel-Site

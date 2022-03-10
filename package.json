@@ -1,0 +1,45 @@
+{
+  "name": "blindy",
+  "version": "1.0.0",
+  "description": "Team members",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [
+    "blinds",
+    "team"
+  ],
+  "author": "tomasz hofdun",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "postcss": "^8.4.5",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.7",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "html-loader": "^3.0.1",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.2.1",
+    "postcss-nested": "^5.0.6",
+    "sass": "^1.45.0",
+    "sass-loader": "^12.4.0",
+    "swiper": "^7.4.1",
+    "typeface-montserrat": "^1.1.13"
+  }
+}
